@@ -22,6 +22,7 @@ function setup() {
   }	
   button = select('button');
   button.mousePressed(startStopAnimation);
+  rectMode(CENTER);
 }
 
 
@@ -63,7 +64,7 @@ class Shape{
     
     push();
     rectMode(CENTER);
-		translate(-6, 14)
+		translate(-8, 15)
     fill(192,192,192);
     if (doingAnimation == true){
       rotate(rot_val);
